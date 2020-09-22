@@ -90,10 +90,7 @@ class WC_Correoargentino_Domicilio extends WC_Shipping_Method{
 			case ($peso <= 1):
 				$peso = 1;
 				break;
-			case ($peso > 1 && $peso <= 3):
-				$peso = 3;
-				break;
-			case ($peso > 3 && $peso <= 5):
+			case ($peso > 1 && $peso <= 5):
 				$peso = 5;
 				break;
 			case ($peso > 5 && $peso <= 10):
@@ -108,14 +105,8 @@ class WC_Correoargentino_Domicilio extends WC_Shipping_Method{
 			case ($peso > 20 && $peso <= 25):
 				$peso = 25;
 				break;
-			case ($peso > 25 && $peso <= 30):
-				$peso = 30;
-				break;
-			case ($peso > 30):
-				$diferencia = $peso - 30;
-				$peso = 30;
-				break;
 			break;
+
 		}
 
 		$region = $package['destination']['state'];
