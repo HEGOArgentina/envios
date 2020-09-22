@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Envíos por CorreoArgentino y Flex
-Plugin URI: https://localhost
+Plugin URI: https://hego.com.ar
 Description: Plugin de envíos
 Version: 1.0.0
 Author: Leonardo Rodriguez
-Author URI: https://localhost
+Author URI: https://hego.com.ar
 */
  
 if ( ! defined( 'WPINC' ) ) {die;}
