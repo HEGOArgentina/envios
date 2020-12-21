@@ -50,8 +50,8 @@ $sucursalTarifaNacional = array(
 );
 ////////////////////////////// TARIFAS FEX	////////////////////
 $tarifaFlex = array(
-	0 => 210,
-	1 => 300,
-	2 => 560
+	0 => 350,
+	1 => 500,
+	2 => 700
 );	
 
